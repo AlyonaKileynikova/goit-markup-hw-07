@@ -7,15 +7,15 @@
   justify-content: space-between;
 }
 
-.principles-item {
+.principles-list__principles-item {
   width: 270px;
 }
 
-.principles-item:not(:last-child) {
+.principles-list__principles-item:not(:last-child) {
   margin-right: 30px;
 }
 
-.principles-icon-space {
+.principles-list__principles-icon-space {
   width: 270px;
   height: 120px;
   background-color: #f5f4fa;
@@ -25,7 +25,7 @@
   align-items: center;
 }
 
-.principles-title {
+.principles-list__principles-title {
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 14px;
@@ -36,7 +36,7 @@
   margin-bottom: 10px;
 }
 
-.principles-text {
+.principles-list__principles-text {
   display: flex;
   color: #757575;
   font-weight: 400;
